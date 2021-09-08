@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".deletebus">
+    <Button
+        android:id="@+id/button03"
+        android:layout_margin="20dp"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:backgroundTint="#f71984"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:text="Delete Buses"
+        android:textColor="#f71984"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_gravity="center"
+        android:layout_width="286dp"
+        android:layout_height="244dp"
+        app:srcCompat="@drawable/deletebus" />
+
+
+
+    <EditText
+        android:id="@+id/busid"
+        android:layout_gravity="center"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:hint="ID"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="#6F6E6E"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/deletebus"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete BUS"
+        android:textSize="25dp"
+        android:backgroundTint="#f71984"/>
+
+
+</LinearLayout>

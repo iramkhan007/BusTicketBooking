@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".AddBusActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:backgroundTint="#f71984"
+        android:text="BACK" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="300dp"
+        android:layout_height="240dp"
+        app:srcCompat="@drawable/addbuss" />
+
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:textColor="@color/black"
+        android:textColorHint="#6F6E6E"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Departure city"
+        android:textColor="@color/black"
+        android:textColorHint="#6F6E6E"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Arrival city"
+        android:textColor="@color/black"
+        android:textColorHint="#6F6E6E"
+        android:textSize="25dp" />
+
+    <EditText
+        android:focusable="false"
+        android:clickable="true"
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:textColor="@color/black"
+        android:textColorHint="#6F6E6E"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/seats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total Seats"
+        android:textColor="@color/black"
+        android:textColorHint="#6F6E6E"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/addbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#f71984"
+        android:text="ADD BUS"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
